@@ -1,0 +1,103 @@
+/*set the webpage to have a background, & for all of the font on the page to be the same as well*/
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #E7E7E7;
+  font-family: Baskerville, "Baskerville Old Face", Garamond, "Times New Roman", serif;
+}
+/*adds a background to the header, as well as padding to the elements within*/
+header {
+  background: #DA1111;
+  padding: 30px;
+}
+/*sets the 'main' container's margins to a percentage of screen real estate available, to make it look neat*/
+main {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+/*adds a background to the footer, & provides space for the elements within*/
+footer {
+  background : #1818E4;
+  padding : 4px;
+}
+/*aligns the text to the center of the container, colors it, bolds it, sizes it, & removes space underneath*/
+h1 {
+  text-align : center;
+  color : #0F0000;
+  font-weight : bolder;
+  font-size : 52px;
+  margin-bottom : -20px;
+}
+/*sizes the text, & aligns it to the left of the container*/
+h2 {
+  font-size : 28px;
+  text-align : left;  
+}
+/*colors & adds space to the left of this heading*/
+h3 {
+  color : #E7E7E7;
+  padding-left : 4%;
+}
+/*aligns, colors, & sizes the heading element, while adding a light bolding effect*/
+h4 {
+  text-align : center;
+  color : black;
+  font-weight: 700;
+  font-size : 16px;
+}
+/*sets the default text size for text in paragraphs, & aligns the lext to the left of the page*/
+p {
+  font-size: 18px;
+  text-align: left;
+  
+}
+/*adds a background to an unordered-list, & sets the items & their markers to inside that background*/
+ul {
+  background: #A4A4A4;
+  list-style-position: inside;
+}
+/*styles an ordered-list; adds color to the text, & space to it's left side*/
+ol {
+  color : #E7E7E7;
+  padding-left: 8%;
+}
+/*sets a width of the asigned container*/
+.box {
+  width: 180px;
+}
+/*class; sets a max width of the asigned containter, relative to the screen size*/
+.foot {
+  max-width: 85%;
+}
+/*sets the font size of the text inside the 'aside'*/
+p.aside {
+  font-size: 14px;
+}
+/*adds a color to the link & removes the underline*/
+a:link { 
+  color: #E7E7E7;  
+  text-decoration: none
+}
+/*adds a new color when the link has been visited & removes the underline*/
+a:visited { 
+  color: red;   
+  text-decoration: none
+}
+/*adds a new color when the link is hovered over & removes the underline*/
+a:hover { 
+  color: #C800FF; 
+  text-decoration: none; 
+  font-size: 115%;
+}
+/*adds a new color when the link is being clicked & removes the underline*/
+a:active { 
+  color: #02ADFC;  
+  text-decoration: none
+}
+/*adds a side bos, & pushes it to the right side of the screen, while italicising the text*/
+aside {
+  float: right;
+  font-style: italic; 
+}
